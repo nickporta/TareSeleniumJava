@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: misTests.Tests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 76.393 sec <<< FAILURE!
+searchPumaShoesSize10Test(misTests.Tests)  Time elapsed: 71.861 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: toIndex = 5
+	at java.util.ArrayList.subListRangeCheck(Unknown Source)
+	at java.util.ArrayList.subList(Unknown Source)
+	at PageObjects.ProductsEbay.namesProducts(ProductsEbay.java:31)
+	at misTests.Tests.searchPumaShoesSize10Test(Tests.java:54)
+
